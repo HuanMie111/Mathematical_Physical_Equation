@@ -1,0 +1,62 @@
+<mxfile host="Electron" modified="2023-12-06T02:56:57.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="OrhDUpg6p3Dow9eX2TKf" version="21.6.5" type="device">
+  <diagram name="第 1 页" id="MaitGPI-S_txmcD9HwoG">
+    <mxGraphModel dx="523" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="jPiYd9RU20gvULt59Yll-2" value="图框" parent="0" />
+        <mxCell id="jPiYd9RU20gvULt59Yll-4" value="抛物型" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=黑体;labelBorderColor=none;strokeColor=none;" parent="jPiYd9RU20gvULt59Yll-2" vertex="1">
+          <mxGeometry x="300" y="420" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UngyOcdF8CbXBzTCQ9OE-9" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontFamily=黑体;rounded=1;" parent="jPiYd9RU20gvULt59Yll-2" source="jPiYd9RU20gvULt59Yll-5" target="UngyOcdF8CbXBzTCQ9OE-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UngyOcdF8CbXBzTCQ9OE-10" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontFamily=黑体;curved=1;" parent="jPiYd9RU20gvULt59Yll-2" source="jPiYd9RU20gvULt59Yll-5" target="UngyOcdF8CbXBzTCQ9OE-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPiYd9RU20gvULt59Yll-5" value="椭圆型" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=黑体;labelBorderColor=none;strokeColor=none;fontColor=default;" parent="jPiYd9RU20gvULt59Yll-2" vertex="1">
+          <mxGeometry x="300" y="350" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jPiYd9RU20gvULt59Yll-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontFamily=黑体;" parent="jPiYd9RU20gvULt59Yll-2" source="jPiYd9RU20gvULt59Yll-1" target="jPiYd9RU20gvULt59Yll-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPiYd9RU20gvULt59Yll-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontFamily=黑体;" parent="jPiYd9RU20gvULt59Yll-2" source="jPiYd9RU20gvULt59Yll-1" target="jPiYd9RU20gvULt59Yll-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lUX5H0jw0oZf33alEyI4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=黑体;fontSize=11;fontColor=default;endArrow=none;endFill=0;" edge="1" parent="jPiYd9RU20gvULt59Yll-2" source="jPiYd9RU20gvULt59Yll-1" target="lUX5H0jw0oZf33alEyI4-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jPiYd9RU20gvULt59Yll-1" value="二阶 &lt;font face=&quot;Times New Roman&quot;&gt;PDE&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=黑体;labelBorderColor=none;strokeColor=none;" parent="jPiYd9RU20gvULt59Yll-2" vertex="1">
+          <mxGeometry x="190" y="410" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UngyOcdF8CbXBzTCQ9OE-1" value="$$\nabla^2u=0$$" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;labelBorderColor=none;strokeColor=none;" parent="jPiYd9RU20gvULt59Yll-2" vertex="1">
+          <mxGeometry x="380" y="326" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UngyOcdF8CbXBzTCQ9OE-2" value="$$\nabla^2u(x,y,z)=f$$" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;labelBorderColor=none;strokeColor=none;" parent="jPiYd9RU20gvULt59Yll-2" vertex="1">
+          <mxGeometry x="380" y="374" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UngyOcdF8CbXBzTCQ9OE-3" value="$$u_t-a^2\nabla^2u=f&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;labelBorderColor=none;strokeColor=none;" parent="jPiYd9RU20gvULt59Yll-2" vertex="1">
+          <mxGeometry x="375" y="420" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UngyOcdF8CbXBzTCQ9OE-4" value="$$u_{tt}-a^2\nabla^2u=f&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;labelBorderColor=none;strokeColor=none;" parent="jPiYd9RU20gvULt59Yll-2" vertex="1">
+          <mxGeometry x="387" y="470" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lUX5H0jw0oZf33alEyI4-0" value="双曲型" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=黑体;labelBorderColor=none;strokeColor=none;" vertex="1" parent="jPiYd9RU20gvULt59Yll-2">
+          <mxGeometry x="300" y="470" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lUX5H0jw0oZf33alEyI4-1" value="Laplace Eq." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;labelBorderColor=none;strokeColor=none;" vertex="1" parent="jPiYd9RU20gvULt59Yll-2">
+          <mxGeometry x="480" y="326" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lUX5H0jw0oZf33alEyI4-2" value="Poisson Eq." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;labelBorderColor=none;strokeColor=none;" vertex="1" parent="jPiYd9RU20gvULt59Yll-2">
+          <mxGeometry x="480" y="374" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lUX5H0jw0oZf33alEyI4-3" value="扩散方程之类" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=黑体;labelBorderColor=none;strokeColor=none;" vertex="1" parent="jPiYd9RU20gvULt59Yll-2">
+          <mxGeometry x="480" y="420" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lUX5H0jw0oZf33alEyI4-4" value="波动方程之类" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=黑体;labelBorderColor=none;strokeColor=none;" vertex="1" parent="jPiYd9RU20gvULt59Yll-2">
+          <mxGeometry x="480" y="470" width="76" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jPiYd9RU20gvULt59Yll-3" value="连接线" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

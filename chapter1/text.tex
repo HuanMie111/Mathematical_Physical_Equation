@@ -1,0 +1,34 @@
+\ifx\allfiles\undefined
+\documentclass[12pt, a4paper, oneside, UTF8]{ctexbook}
+\def\path{../config}
+\input{../config/_config}
+\usepackage{calc}  
+\begin{document}
+% \input{../config/cover}
+\else
+\fi
+ 
+\begin{equation*}
+    \mbox{泛定方程} + \mbox{定解条件}
+        \left\{ 
+            \begin{lgathered} \mbox{初始条件} \\ \mbox{边界条件} \end{lgathered}   
+        \right.
+    = \mbox{定解问题}
+        \left\{
+            \begin{lgathered} 
+                \mbox{初值问题(也叫做 Cauthy 问题)} \\ \mbox{边值问题} \\ \mbox{混合问题} 
+            \end{lgathered} 
+        \right.
+\end{equation*}
+图\ref{fig:偏微分方程分类}
+\newpage
+
+
+\begin{figure}
+    \centering
+    \includegraphics{偏微分方程分类.pdf}
+    \caption{\label{fig:偏微分方程分类} 偏微分方程分类}
+\end{figure}
+\ifx\allfiles\undefined
+\end{document}
+\fi
