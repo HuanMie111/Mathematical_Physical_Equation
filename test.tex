@@ -2,12 +2,8 @@
 \documentclass[12pt, a4paper, oneside, UTF8]{ctexbook}
 \def\path{./config}
 \input{config/_config}
-
+\newlength\mylen
 \begin{document}
-\include{config/cover}
-
-\include{chapter1/chapter}
-\include{chapter2/chapter}
-% \include{chapter2/chapter}
-
+\settowidth\mylen{some}
+\the\mylen
 \end{document}

@@ -1,0 +1,50 @@
+\ifx\allfiles\undefined
+\documentclass[12pt, a4paper, oneside, UTF8]{ctexbook}
+\def\path{../config}
+\input{../config/_config}
+\begin{document}
+% \input{../config/cover}
+\else
+\fi
+
+\chapter{分离变数法}
+
+\section{齐次方程的分离变数法}
+
+一维齐次波动方程的混合问题：
+\begin{equation}
+    \left\{ 
+    \begin{lgathered}
+        u_{tt} - a^2u_{xx} = 0, \quad 0 < x < l,\;t > 0,  \\
+        u|_{t = 0} = \varphi(x),\;u_{t}|_{t = 0} = \psi(x),\quad 0 \leqslant x \leqslant l,  \\
+        u|_{x = 0} = 0,\;u|_{x = l} = 0,\quad t \geqslant 0.
+    \end{lgathered}   
+    \right.
+\end{equation}
+(其中 $\varphi(0)=\varphi(l)=0$，这个条件也被称为相容性条件)
+
+该定解问题的解为：
+\begin{equation}
+    u(x,t) = \sum^\infty_{k = 1}(A_k\cos \frac{k\/\mpi a}{l} t 
+        + B_k\sin\frac{k\mpi a}{l} t\,)\sin \frac{k\mpi}{l}x,
+\end{equation}
+\begin{equation}
+    \mbox{其中,\ }
+    \left\{
+    \begin{lgathered}    
+        A_k = \frac{2}{l}\int^l_0 \varphi(\xi)\sin \frac{k\mpi\xi}{l}\dif \xi,  \\
+        B_k = \frac{2}{k\mpi a}\int^l_0 \psi (\xi)\sin \frac{k\mpi\xi}{l}\dif \xi.
+    \end{lgathered}
+    \right.
+\end{equation}
+\colorstar 解是很多模的叠加，每一个模可以分成单元函数的积 
+
+\colorstar 抛物型方程(输运过程)无法从当前反推早先时刻的状态
+
+\colorstar 定解问题的解在实际问题中常常前若干项较为重要，后面的项因太小可略去。
+
+
+
+\ifx\allfiles\undefined
+\end{document}
+\fi
